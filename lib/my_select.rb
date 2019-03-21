@@ -4,4 +4,4 @@ def my_select(collection)
  end
  puts collection.select {|num| num.even?}
  end
-end
+

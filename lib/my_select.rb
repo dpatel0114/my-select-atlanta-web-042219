@@ -1,4 +1,4 @@
 def my_select(collection)
- my_select(nums) do |num|
-   num.select
+ collection.each do |num|
+   num
 end

@@ -2,6 +2,6 @@ def my_select(collection)
  collection.each do |num|
    num
  end
- puts collection.select {|num| num.even?}
+  collection.select {|num| num.even?}
  end
 

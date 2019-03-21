@@ -2,5 +2,5 @@ def my_select(collection)
  collection.each do |num|
    num
  end
- puts 
+ puts collection.select {|num| num
 end

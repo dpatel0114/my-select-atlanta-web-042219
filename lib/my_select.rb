@@ -1,5 +1,5 @@
 def my_select(collection)
- collection.each do |num|
-   return true
+ collection.select? do |num|
+   
  end
 end
